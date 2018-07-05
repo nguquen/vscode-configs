@@ -1,0 +1,87 @@
+{
+  "vim.startInInsertMode": false,
+  "vim.enableNeovim": true,
+  "vim.easymotion": true,
+  "vim.useSystemClipboard": true,
+  "vim.hlsearch": true,
+  "vim.leader": " ",
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": [
+        "leader",
+        "c",
+        "h"
+      ],
+      "after": [],
+      "commands": [
+        {
+          "command": ":nohl"
+        }
+      ]
+    },
+    {
+      "before": [
+        "leader",
+        "w"
+      ],
+      "after": [],
+      "commands": [
+        {
+          "command": "workbench.action.files.save"
+        }
+      ]
+    },
+    {
+      "before": [
+        "leader",
+        "q"
+      ],
+      "after": [],
+      "commands": [
+        {
+          "command": ":q"
+        }
+      ]
+    },
+    {
+      "before": [
+        "<c-w>",
+        "s"
+      ],
+      "after": [],
+      "commands": [
+        {
+          "command": "workbench.action.splitEditorDown"
+        }
+      ]
+    },
+    {
+      "before": [
+        "K"
+      ],
+      "after": [],
+      "commands": [
+        {
+          "command": "search.action.clearSearchResults"
+        },
+        {
+          "command": "workbench.action.findInFiles"
+        }
+      ]
+    }
+  ],
+  "javascript.validate.enable": true,
+  "flow.useNPMPackagedFlow": true,
+  "telemetry.enableCrashReporter": false,
+  "telemetry.enableTelemetry": false,
+  "files.hotExit": "onExitAndWindowClose",
+  "editor.minimap.enabled": false,
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true,
+  "prettier.eslintIntegration": true,
+  "workbench.statusBar.feedback.visible": false,
+  "window.zoomLevel": 0,
+  "workbench.sideBar.location": "left",
+  "workbench.colorTheme": "One Dark Pro",
+  "editor.renderWhitespace": "all"
+}
